@@ -4,7 +4,6 @@ from pymongo import MongoClient
 import random
 import time
 
-#urllib.parse.quote_plus(user)
 username = "admin"
 database_name = "root"
 password = "1234567wzy@"
@@ -31,4 +30,4 @@ if __name__ == "__main__":
     while True:
         insert_data_into_db()
         print("1")
-        time.sleep(60)
+        time.sleep(60)  # 休眠60秒
